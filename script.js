@@ -41,7 +41,7 @@ const playTheGame = (human, machine) => {
     }else {
         machineScoreNumber++
         machineScore.innerHTML =machineScoreNumber
-        result.innerHTML = "Você predeu"
+        result.innerHTML = "Você perdeu"
     }
 
 }
