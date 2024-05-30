@@ -1,4 +1,3 @@
-
 <h1 align="center">Projeto JOKENPÔ</h1>
 
 <h2>Olá sejam bem-vindo</h2>
@@ -14,14 +13,13 @@
 <li>Layout responsivo: Adapta-se perfeitamente a qualquer tela, seja desktop, tablet ou smartphone.</li>
 </ul>
 
-
 <h4>Link:</h4>
 
->Deploy: https://daliosy.github.io/jokenpo
+> Deploy: https://daliosy.github.io/jokenpo
 
->Repoditório: https://github.com/DalioSY/jokenpo
+> Repoditório: https://github.com/DalioSY/jokenpo
 
->Linkedin: https://www.linkedin.com/in/dalio-s-yamada/
+> Linkedin: https://www.linkedin.com/in/dalio-s-yamada/
 
 #webdesign #html #css #jokenpo
 <br>
@@ -33,5 +31,6 @@
 </div>
 
 <div align="center"> 
-<img src="assets/img-jokenpo.png" />
+<img src="./img/git-1.png" width="250px">
+<img src="./img/git-2.png" width="250px">
 </div>
