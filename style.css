@@ -1,74 +1,94 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Orbitron', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
 }
 
 body {
-    background: url("https://source.unsplash.com/1600x900/?landscape");
-    background-size: cover;/* esticar a imagem */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  background-image: url("./img/fundo.jpg");
+  background-size: cover; /* esticar a imagem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
-    padding: 20px;
-    background-color: black;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container:hover {
+  box-shadow: 0px 0px 11px #eee;
 }
 
 .button {
-    margin: 30px 0;
-    display: flex;
-    gap: 40px;
+  margin: 30px 0;
+  display: flex;
+  gap: 40px;
 }
 
-button{
-    padding: 10px;
-    font-size: 50px;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    transition: opacity 0.5s ease-in-out;
+button {
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out;
+  background-color: #666666;
+  cursor: pointer;
 }
 
-#rock {
-    background-color: #666666;
+button:hover {
+  opacity: 0.5;
 }
 
-#paper {
-    background-color: #666666;
+button:active {
+  transform: scale(0.9);
 }
 
-#scissors {
-    background-color: #666666;
+h1 {
+  font-weight: 900;
+  font-size: 80px;
+  color: #b9a706;
 }
 
-h1{
-    font-weight: 900;
-    font-size: 80px;
-    color: #b9a706;
+h1:hover {
+  filter: drop-shadow(0px 0px 11px #eee);
 }
 
-p{
-    font-weight: 400;
-    font-size: 27px;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 20px;
+p {
+  font-weight: 400;
+  font-size: 27px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .you-score span {
-    color: rgb(3, 88, 46);
+  color: rgb(3, 88, 46);
 }
 
 .machine-score span {
-    color: rgb(196, 7, 1);
+  color: rgb(196, 7, 1);
+}
+
+#draw {
+  color: #666666;
+}
+
+.ia {
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out;
+  background-color: #666666;
 }
